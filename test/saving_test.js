@@ -1,5 +1,5 @@
 const mocha = require('mocha') //mocha works even without importing it
-const assert = require('assert') //node.js built in module for testing
+const assert = require('assert') //node.js built in module for testing. Also works without it
 const MarioChar = require('../models/mariochar.js')
 
 describe('Saving records', () => {
